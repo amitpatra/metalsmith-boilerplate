@@ -1,0 +1,18 @@
+{
+	"name": "metalsmith-boilerplate",
+	"version": "1.0.0",
+	"description": "A Metalsmith boilerplate",
+	"main": "build.js",
+	"scripts": {
+		"prebuild": "yarn install",
+		"build": "node ."
+	},
+	"repository": "https://github.com/amitpatra/metalsmith-boilerplate",
+	"author": "Amit Patra <amit.patra@msn.com>",
+	"license": "MIT",
+	"private": true,
+	"dependencies": {
+		"metalsmith": "^2.3.0",
+		"metalsmith-markdownit": "^0.4.0"
+	}
+}
