@@ -17,6 +17,11 @@ A Metalsmith plugin to convert markdown files using [markdown-it][markdown-it] l
 Markdown-it plugin to add Math to your Markdown
 [Github][markdown-it-katex-github] | [npm][markdown-it-katex-npm]
 
+#### Atom Highlights
+ A 'Syntax highlighter'
+ [Github][atom-highlights-github] | [npm][atom-highlights-npm] | [Link][atom-highlights]
+
+
 [metalsmith-github]: https://github.com/segmentio/metalsmith
 [metalsmith-npm]: https://www.npmjs.com/package/metalsmith
 [metalsmith]: http://metalsmith.io
@@ -27,3 +32,7 @@ Markdown-it plugin to add Math to your Markdown
 
 [markdown-it-katex-github]: https://github.com/waylonflinn/markdown-it-katex
 [markdown-it-katex-npm]: https://www.npmjs.com/package/markdown-it-katex/
+
+[atom-highlights]: https://atom.github.io/highlights/
+[atom-highlights-github]: https://github.com/atom/highlights
+[atom-highlights-npm]: https://www.npmjs.com/package/highlights

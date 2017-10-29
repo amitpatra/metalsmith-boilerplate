@@ -12,6 +12,7 @@
 	"license": "MIT",
 	"private": true,
 	"dependencies": {
+		"highlights": "^3.1.1",
 		"markdown-it-katex": "^2.0.3",
 		"metalsmith": "^2.3.0",
 		"metalsmith-markdownit": "^0.4.0"
