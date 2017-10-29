@@ -10,8 +10,12 @@ The core Metalsmith Module
 
 #### Metalsmith markdownit
 A Metalsmith plugin to convert markdown files using [markdown-it][markdown-it] library.
-[Github][metalsmith-github-markdownit] | [npm][metalsmith-npm-markdownit]
+[Github][metalsmith-markdownit-github] | [npm][metalsmith-markdownit-npm]
 
+### Extras
+#### Markdown-it Katex
+Markdown-it plugin to add Math to your Markdown
+[Github][markdown-it-katex-github] | [npm][markdown-it-katex-npm]
 
 [metalsmith-github]: https://github.com/segmentio/metalsmith
 [metalsmith-npm]: https://www.npmjs.com/package/metalsmith
@@ -19,5 +23,7 @@ A Metalsmith plugin to convert markdown files using [markdown-it][markdown-it] l
 
 [metalsmith-markdownit-github]: https://github.com/mayo/metalsmith-markdownit
 [metalsmith-markdownit-npm]: https://www.npmjs.com/package/metalsmith-markdownit
+[markdown-it]: https://github.com/markdown-it/markdown-it
 
-
+[markdown-it-katex-github]: https://github.com/waylonflinn/markdown-it-katex
+[markdown-it-katex-npm]: https://www.npmjs.com/package/markdown-it-katex/

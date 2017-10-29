@@ -1,8 +1,14 @@
 const metalsmith = require('metalsmith');
-const markdown = require('metalsmith-markdownit');
+const markdown = require('metalsmith-markdownit')();
+const katex = require('markdown-it-katex');
 
 const SITE_NAME = 'Metalsmith boilerplate';
 const SITE_DESCRIPTION = 'Metalsmith boilerplate to create Metalsmith sites';
+
+/*
+Use markdown-it-katex-plugin
+*/
+markdown.parser.use(katex);
 
 metalsmith(__dirname)
 	.metadata({
@@ -13,7 +19,7 @@ metalsmith(__dirname)
 	})
 	.source('./src')
 	.destination('./build')
-	.use(markdown())
+	.use(markdown)
 	.build(function(err) {
 		if (err) {
 			console.log(err);
